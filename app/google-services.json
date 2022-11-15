@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "45423910636",
+    "project_id": "game-task-3ecf1",
+    "storage_bucket": "game-task-3ecf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45423910636:android:173bb02438cd8613b9cfc9",
+        "android_client_info": {
+          "package_name": "com.vladtop.game_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45423910636-cpfegomjdq5nhblvqvi06ovp86saoktr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vladtop.game_task",
+            "certificate_hash": "ba34ed5e2848e4de685d1b82a80efb4129a94507"
+          }
+        },
+        {
+          "client_id": "45423910636-337bm6t0tk7hosodeu64v38rhrs3ltt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM-vtYyaZPZCAtPFMuHrBfDRs4QQfkdRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45423910636-337bm6t0tk7hosodeu64v38rhrs3ltt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

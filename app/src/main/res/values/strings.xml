@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">game_task</string>
+    <string name="title">Test Task</string>
 </resources>

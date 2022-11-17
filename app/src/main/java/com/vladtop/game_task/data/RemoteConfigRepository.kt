@@ -1,12 +1,14 @@
-package com.vladtop.game_task
+package com.vladtop.game_task.data
 
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
 import com.google.firebase.remoteconfig.ktx.remoteConfig
 import com.google.firebase.remoteconfig.ktx.remoteConfigSettings
+import com.vladtop.game_task.BuildConfig
+import com.vladtop.game_task.R
 
-const val WEB_LINK = "web_link"
-private const val GAME_PASS = "game_pass"
+const val WEB_LINK_KEY = "web_link"
+private const val GAME_PASS_KEY = "game_pass"
 
 class RemoteConfigRepository(
     private val onResultListener: OnResultListener
@@ -45,9 +47,9 @@ class RemoteConfigRepository(
         return remoteConfig
     }
 
-    private fun getGamePass(): Boolean = remoteConfig.getBoolean(GAME_PASS)
+    private fun getGamePass(): Boolean = remoteConfig.getBoolean(GAME_PASS_KEY)
 
-    private fun getWebLink(): String = remoteConfig.getString(WEB_LINK)
+    private fun getWebLink(): String = remoteConfig.getString(WEB_LINK_KEY)
 
     interface OnResultListener {
         fun onSuccess(gamePass: Boolean, webLink: String)

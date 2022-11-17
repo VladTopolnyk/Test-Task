@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>game_pass</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>web_link</key>
+        <value>https://webqr.com/</value>
+    </entry>
+</defaultsMap>
